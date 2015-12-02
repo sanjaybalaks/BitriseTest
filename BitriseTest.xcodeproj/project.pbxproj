@@ -415,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.live.BitriseTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"TEST_HOST[sdk=iphoneos*]" = "";
 			};
 			name = Debug;
 		};
@@ -426,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.live.BitriseTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"TEST_HOST[sdk=iphoneos*]" = "";
 			};
 			name = Release;
 		};
@@ -496,6 +498,7 @@
 				D5B491CE1C0F490800CFE0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5B491CF1C0F490800CFE0FE /* Build configuration list for PBXNativeTarget "BitriseTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +507,7 @@
 				D5B491D11C0F490800CFE0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5B491D21C0F490800CFE0FE /* Build configuration list for PBXNativeTarget "BitriseTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				D5B491D41C0F490800CFE0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
